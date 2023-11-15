@@ -1,0 +1,25 @@
+a) Qual é a complexidade de tempo da operação de inserção de uma nova tarefa na lista duplamente encadeada, levando em consideração a prioridade e a ordem de chegada?
+A complexidade de tempo da operação de inserção é O(n)
+onde n é o número de elementos na lista, pois precisamos percorrer a lista para encontrar a posição correta para a nova tarefa.
+
+
+b) Qual é a complexidade de tempo da operação de remoção de uma tarefa da lista?
+A complexidade de tempo da operação de remoção é O(1) se soubermos qual tarefa remover diretamente. Caso contrário, seria O(n)
+onde n é o número de elementos na lista, pois precisamos procurar a tarefa a ser removida.
+
+
+
+c) Como você implementaria a consulta da tarefa com a prioridade mais alta que ainda não foi concluída de forma eficiente?
+Para consultar a tarefa com a prioridade mais alta que não foi concluída de forma eficiente, basta percorrer a lista até encontrar a primeira tarefa que atenda a esse critério. 
+A complexidade de tempo é O(n), onde n é o número de elementos na lista.
+
+
+d) Qual é a complexidade de tempo da operação de impressão de todas as tarefas na lista, mantendo a ordem de prioridade?
+ complexidade de tempo da operação de impressão de todas as tarefas mantendo a ordem de prioridade é O(n), onde n é o número de elementos na lista
+pois precisamos percorrer a lista e imprimir cada elemento.
+
+
+
+
+
+
