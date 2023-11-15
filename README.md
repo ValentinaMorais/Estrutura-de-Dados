@@ -38,7 +38,9 @@ int main() {
     printDoctors(doctorList);
 
     return 0;
-}
+    }
+
+
 
 Este projeto fornece uma base para a implementação de um sistema de escalonamento hospitalar, permitindo uma distribuição justa e contínua de turnos entre os médicos.
 A lista circular garante que todos os médicos sejam considerados antes de reiniciar o processo, evitando privilégios constantes ou negligenciamento de profissionais no escalonamento.
